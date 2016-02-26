@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>UC Davis Solarri</title>
     <meta name="description" content="">
+    <link rel="icon" type="image/png" href="/img/favicon.png">
     <link rel="canonical" href="http://ucddesigncareerfair.com/">
     <link rel="alternate" type="application/rss+xml" title="UC Davis Solarri" href="http://ucddesigncareerfair.com/feed.xml">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,300italic,500|Open+Sans:400,400italic,300italic,300,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,300italic,500|Open+Sans:400,400italic,300italic,300,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.1.2/foundation.min.css">
     <link type="text/css" rel="stylesheet" href="/css/style.css">
@@ -16,17 +17,18 @@
     <script src="https://cdn.jsdelivr.net/foundation/6.1.2/foundation.min.js"></script>
 </head>
     <body class="home">
-        <header>
+        <header class="navbar">
     <div class="row column">
         <div class="top-bar">
             <div class="top-bar-left">
-                <a href="/"><img src="/img/logo.png"></a>
+                <a class="scroll-link" href="#hero"><img src="/img/logo.png"></a>
             </div>
             <div class="top-bar-right">
                 <ul class="menu">
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">our progress</a></li>
-                    <li><a href="#">contact us</a></li>
+                    <li><a class="scroll-link" href="#about">about us</a></li>
+                    <li><a class="scroll-link" href="#progress">our progress</a></li>
+                    <li><a class="scroll-link" href="#sponsors">sponsors</a></li>
+                    <li><a class="scroll-link" href="#">contact us</a></li>
                 </ul>
             </div>
         </div>
@@ -38,7 +40,7 @@
     <div class="row">
         <div class="columns medium-5">
             <p>Bringing <strong>UC Davis</strong> Engineering to the forefront of <strong>clean energy transportation</strong>.</p>
-            <a class="button yellow inverted">Learn More</a><img class="ucd-logo" src="/img/ucd_logo.png">
+            <a class="button yellow inverted scroll-link" href="#about">Learn More</a><img class="ucd-logo" src="/img/ucd_logo.png">
         </div>
     </div>
 </section>
@@ -74,7 +76,63 @@
         </ul>
         <div class="tabs-content" data-tabs-content="progressTabs">
             <div class="tabs-panel is-active" id="panel1">
-                <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+                
+                    <div class="row column single-part on-scroll">
+                        <div class="columns medium-6">
+                            <img src="/img/chassis.jpg">
+                        </div>
+                        <div class="columns medium-6">
+                            <div class="info">
+                                <h2>Chassis</h2>
+                                <p>Tousled food truck polaroid, salvia bespoke small batch Pinterest Marfa. Fingerstache authentic craft beer, food truck Banksy Carles kale chips hoodie. Trust fund artisan master cleanse fingerstache.</p>
+                                <div class="captain">
+                                    <ul>
+                                        <li><strong>Team Captain:</strong> Andy Lin</li>
+                                        <li><strong>Contact:</strong> andlin@ucdavis.edu</li>
+                                    </ul>
+                                </div>
+                                <div class="progress-container">
+                                    <div class="progress-bar">
+                                        <span class="current-progress red" progress="5%"><span class="progress-text">5% FUNDED</span></span>
+                                    </div>
+                                    <div class="labels clearfix">
+                                        <span>$0</span>
+                                        <span class="pull-right">$3000</span>
+                                    </div>
+                                </div>
+                                <a class="scroll-link button primary" href="#contact">SPONSOR US</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="row column single-part on-scroll">
+                        <div class="columns medium-6">
+                            <img src="/img/chassis.jpg">
+                        </div>
+                        <div class="columns medium-6">
+                            <div class="info">
+                                <h2>Chassis</h2>
+                                <p>Tousled food truck polaroid, salvia bespoke small batch Pinterest Marfa. Fingerstache authentic craft beer, food truck Banksy Carles kale chips hoodie. Trust fund artisan master cleanse fingerstache.</p>
+                                <div class="captain">
+                                    <ul>
+                                        <li><strong>Team Captain:</strong> Andy Lin</li>
+                                        <li><strong>Contact:</strong> andlin@ucdavis.edu</li>
+                                    </ul>
+                                </div>
+                                <div class="progress-container">
+                                    <div class="progress-bar">
+                                        <span class="current-progress red" progress="5%"><span class="progress-text">5% FUNDED</span></span>
+                                    </div>
+                                    <div class="labels clearfix">
+                                        <span>$0</span>
+                                        <span class="pull-right">$30,000</span>
+                                    </div>
+                                </div>
+                                <a class="scroll-link button primary" href="#contact">SPONSOR US</a>
+                            </div>
+                        </div>
+                    </div>
+                
             </div>
             <div class="tabs-panel" id="panel2">
                 <p>Suspendisse dictum feugiat nisl ut dapibus.  Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.  Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
@@ -82,11 +140,45 @@
           </div>
     </div>
 </section>
+<section id="sponsors">
+    <div class="row column">
+        <div class="section-title">
+            <hr>
+            <h1>OUR SPONSORS</h1>
+            <h3>Be part of our success.</h3>
+        </div>
+        <div class="sponsors-list">
+            
+                <img src="/img/sponsors/asme.jpg">
+            
+                <img src="/img/sponsors/gf_piping_systems.jpg">
+            
+                <img src="/img/sponsors/ieee.jpg">
+            
+                <img src="/img/sponsors/pacific_waterjet.jpg">
+            
+                <img src="/img/sponsors/revchem.jpg">
+            
+                <img src="/img/sponsors/solidworks.jpg">
+            
+                <img src="/img/sponsors/ucd_engineering.jpg">
+            
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="row column">
+        <div class="section-title">
+            <hr>
+            <h1>CONTACT US</h1>
+            <h3>Want to sponsor us? Have any questions? Leave a message below!</h3>
+        </div>
+    </div>
+</section>
             </div>
         </div>
         <footer>
-    <div class="row">
-        <h3 class="footer-heading">UC Davis Solarri</h3>
+    <div class="row column">
         <p>Copyright &copy; 2016 UCD Solarri. All Rights Reserved.</p>
     </div>
 </footer>
