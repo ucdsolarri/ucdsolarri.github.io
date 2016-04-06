@@ -4,7 +4,7 @@ $('.scroll-link').on('click', function(e) {
     e.preventDefault();
 
     var href = $(this).attr('href');
-    var pos = $(href).offset().top;
+    var pos = $(href).offset().top - 66;
     $('body, html').animate({
         scrollTop: pos,
     },1000);
